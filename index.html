@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Web Crypto avec ChatGPT</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Site</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Site Web Crypto avec ChatGPT</h1>
-    </header>
-
-    <main>
-        <section>
-            <h2>Les 5 principales crypto-monnaies</h2>
-            <ul id="crypto-list">
-            </ul>
-        </section>
-        <section>
-            <h2>Discutez avec ChatGPT</h2>
-            <div class="chatbox">
-                <ul id="chat-messages"></ul>
-            </div>
-            <form id="message-form">
-                <input type="text" id="message-input" placeholder="Tapez votre message ici">
-                <button type="submit">Envoyer</button>
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2023 - Site Web Crypto avec ChatGPT</p>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="scripts.js"></script>
+  <header>
+    <h1>Bienvenue sur Crypto Site</h1>
+    <nav>
+      <ul>
+        <li><a href="#top-crypto">Top cryptomonnaies</a></li>
+        <li><a href="#contact">Contactez-nous</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="top-crypto">
+      <h2>Top cryptomonnaies</h2>
+      <ul>
+        <li>Bitcoin</li>
+        <li>Ethereum</li>
+        <li>Binance Coin</li>
+        <li>Cardano</li>
+        <li>Solana</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contactez-nous</h2>
+      <form>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Crypto Site. Tous droits réservés.</p>
+  </footer>
+  <script src="scripts.js"></script>
 </body>
 </html>
