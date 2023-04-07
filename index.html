@@ -3,49 +3,78 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Crypto Site</title>
+  <title>Crypto News</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Bienvenue sur Crypto Site</h1>
+    <div class="logo">Crypto News</div>
     <nav>
       <ul>
-        <li><a href="#top-crypto">Top cryptomonnaies</a></li>
-        <li><a href="#contact">Contactez-nous</a></li>
+        <li><a href="#actualites">Actualités</a></li>
+        <li><a href="#bitcoin">Bitcoin</a></li>
+        <li><a href="#altcoins">Altcoins</a></li>
+        <li><a href="#education">Éducation</a></li>
+        <li><a href="#guides">Guides</a></li>
       </ul>
     </nav>
+    <div class="search">
+      <input type="text" placeholder="Rechercher">
+    </div>
   </header>
-  <main>
-    <section id="top-crypto">
-      <h2>Top cryptomonnaies</h2>
-      <ul>
-        <li>Bitcoin</li>
-        <li>Ethereum</li>
-        <li>Binance Coin</li>
-        <li>Cardano</li>
-        <li>Solana</li>
-      </ul>
+  
+  <main class="container">
+    <section id="actualites">
+      <h2>Actualités</h2>
+      <!-- Ajouter des articles de nouvelles ici -->
     </section>
-    <section id="contact">
-      <h2>Contactez-nous</h2>
-      <form>
-        <label for="name">Nom :</label>
-        <input type="text" id="name" name="name" required>
-        
-        <label for="email">Email :</label>
-        <input type="email" id="email" name="email" required>
-        
-        <label for="message">Message :</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-        
-        <button type="submit">Envoyer</button>
-      </form>
+    
+    <section id="bitcoin">
+      <h2>Bitcoin</h2>
+      <!-- Ajouter des articles sur Bitcoin ici -->
+    </section>
+    
+    <section id="altcoins">
+      <h2>Altcoins</h2>
+      <!-- Ajouter des articles sur Altcoins ici -->
+    </section>
+    
+    <section id="education">
+      <h2>Éducation</h2>
+      <!-- Ajouter des articles éducatifs ici -->
+    </section>
+    
+    <section id="guides">
+      <h2>Guides</h2>
+      <!-- Ajouter des guides et tutoriels ici -->
     </section>
   </main>
+  
   <footer>
-    <p>&copy; 2023 Crypto Site. Tous droits réservés.</p>
+    <div class="footer-section">
+      <h3>À propos</h3>
+      <p>Informations sur l'entreprise...</p>
+    </div>
+    <div class="footer-section">
+      <h3>Catégories</h3>
+      <ul>
+        <li><a href="#actualites">Actualités</a></li>
+        <li><a href="#bitcoin">Bitcoin</a></li>
+        <li><a href="#altcoins">Altcoins</a></li>
+        <li><a href="#education">Éducation</a></li>
+        <li><a href="#guides">Guides</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Pages importantes</h3>
+      <ul>
+        <li><a href="#">Mentions légales</a></li>
+        <li><a href="#">Politique de confidentialité</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
   </footer>
+  
   <script src="scripts.js"></script>
 </body>
 </html>
